@@ -38,8 +38,10 @@ and additionally matplotlib for the examples.
 Validation
 ----------
 The validation of the current physics model is based on data provided
-in the thesis of Bloemendaal, B.F. (2009) for the Big Air model
-of roller coaster by Dutch manufacturer Vekoma.
+in the MSc thesis of 
+[Bloemendaal, B.F. (2009)](http://resolver.tudelft.nl/uuid:701f9c34-fc6b-46d2-8beb-c966041bc410)
+for the [Big Air](https://rcdb.com/8656.htm)
+model of roller coaster by Dutch manufacturer Vekoma.
 See the figure below for a comparison of the Hamiltonian (total energy)
 of the system as a function of time.
 
@@ -49,13 +51,20 @@ of the system as a function of time.
 
 The code to produce this figure can be found in `examples/validate.py`.
 Other examples can also be found in that folder.
-Note that some functionality is currently undocumented (todo).
+Note that some functionality of PyCoaster is currently undocumented (todo).
+
+See also
+--------
+[Pendrill, A-M.](https://tivoli.fysik.org/) has done excellent research
+in the field, producing countless open-access articles and motion tracker data.
+I highly recommend her articles, and they may provide opportunities for
+additional validation cases in the future.
 
 To-do
 -----
 High priority:
 - Write a rationale on the physics and mathematics behind PyCoaster,
-- Add more track geometries and examples,
+- Add more track geometries, examples and validation cases,
 - Improve code quality/add features.
 
 Low priority (may never happen):
