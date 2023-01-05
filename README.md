@@ -32,8 +32,8 @@ Install PyCoaster and run an example:
 	cd pycoaster/examples
 	python3 animate.py
 
-The core dependencies are scipy and numpy,
-and additionally matplotlib for the examples.
+The core dependencies are SciPy and NumPy.
+You additionally need Matplotlib for the examples.
 
 Validation
 ----------
@@ -43,11 +43,15 @@ in the MSc thesis of
 for the [Big Air](https://rcdb.com/8656.htm)
 model of roller coaster by Dutch manufacturer Vekoma.
 See the figure below for a comparison of the Hamiltonian (total energy)
-of the system as a function of time.
+of the system as a function of time, as well as the ride stats.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/tijssen/pycoaster/main/docs/validation.png">
 </p>
+
+-  Length: 145.9 m
+-   Speed: 112.7 km/h
+- G-Force: 4.0
 
 The code to produce this figure can be found in `examples/validate.py`.
 Other examples can also be found in that folder.
@@ -62,15 +66,9 @@ additional validation cases in the future.
 
 To-do
 -----
-High priority:
 - Write a rationale on the physics and mathematics behind PyCoaster,
-- Add more track geometries, examples and validation cases,
-- Improve code quality/add features.
-
-Low priority (may never happen):
-- Implement a control system,
-- High-fidelity animations using OpenGL,
-- More options/tools to create/add tracks.
+- Document all features,
+- Add more track geometries, examples and validation cases.
 
 Copyright
 ---------

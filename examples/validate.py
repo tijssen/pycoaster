@@ -33,6 +33,10 @@ y = sol.sol(t)
 s, s1 = y
 
 if __name__ == "__main__":
+    print(f" Length: {rc.ga.s[-1]:.1f} m")
+    print(f"  Speed: {np.max(s1)*3.6:.1f} km/h")
+    print(f"G-Force: {np.max(rc.an(*y))/9.81:.1f}")
+
     import matplotlib.pyplot as plt
 
     g = rc.c["g"]
